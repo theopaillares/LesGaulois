@@ -34,8 +34,8 @@ public class Gaulois {
 		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 	}
 	public void boirePotion() {
-		// TODO Auto-generated method stub
-		parler("Merci Druide, je sens que ma force est "+ N + " fois décuplée");
+		
+		parler("Merci Druide, je sens que ma force est "+  + " fois décuplée");
 	}
 	
 	public static void main(String[] args) {
