@@ -32,7 +32,14 @@ public class Gaulois {
 		// TODO Auto-generated method stub
 		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 	}
+	
 	public static void main(String[] args) {
-		// TODO créer un main permettant de tester la classe Gaulois
+		Gaulois asterix;
+		asterix = new Gaulois("asterix", 8);
+		System.out.println(asterix.getNom());
+		System.out.println(asterix);
+		System.out.println(prendreParole(asterix));
 	}
+	
 }
+
