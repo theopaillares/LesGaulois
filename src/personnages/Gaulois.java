@@ -1,5 +1,6 @@
 package personnages;
 
+import java.lang.reflect.Method;
 import java.security.PublicKey;
 
 public class Gaulois {
@@ -32,6 +33,10 @@ public class Gaulois {
 		// TODO Auto-generated method stub
 		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 	}
+	public void boirePotion() {
+		// TODO Auto-generated method stub
+		parler("Merci Druide, je sens que ma force est "+ N + " fois décuplée");
+	}
 	
 	public static void main(String[] args) {
 		Gaulois asterix;
@@ -42,6 +47,5 @@ public class Gaulois {
 		asterix.parler("Bonjour");
 		asterix.frapper(null);
 	}
-	
 }
 
