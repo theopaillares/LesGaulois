@@ -1,6 +1,13 @@
 package personnages;
 
-public class Village {
+public class Village { 
 	private String nom;
-	// TODO finir les Classes Village et Chef
+	
+	public Village(String nom) { 
+		this.nom = nom; 
+	}
+	
+	public String getNom() { 
+		return nom; 
+	}
 }
